@@ -20,8 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'l15x@r0&!ut(th%)luy03l00d@2)rrn+(gf(t&yee2$x56x-41'
-API_KEY = '==XxPiAgZ3bAX6ZbbcvcbT6wqrPdJqQDXi+mBTK/zZTw==L818RZMBZ1mnOnOoSdMZ'
-MEMBER_KEY = '4qjHbugc2M4+L4KNCeDhOA=='
+API_KEY = '==qqS28aSYW4fcsKrMypPu6wqrPdJqQDXi+mBTK/zZTw==QT09EJqauHdFZmHZSOok'
+MEMBER_KEY = 'UO+fIIMLrxstiTcArtn3JQ=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -85,8 +85,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'test',
         'USER': 'postgres',
-        'PASSWORD': 'pgMjk6F#18P,5',
-        'HOST': '46.41.138.32',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
