@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'mrdj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'test',
-        'USER': 'postgres',
-        'PASSWORD': 'pgMjk6F#18P,5',
-        'HOST': '46.41.138.32',
-        'PORT': '5432',
+        'NAME': 'plugins_test',
+        'USER': 'postgres_user2',
+        'PASSWORD': '5vfcbfdg345',
+        'HOST': '172.32.1.31',
+        'PORT': '5450',
     }
 }
 
