@@ -25,7 +25,7 @@ MEMBER_KEY = '4qjHbugc2M4+L4KNCeDhOA=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ "localhost", "test-django.jsql.it" ]
 
 # Application definition
 
