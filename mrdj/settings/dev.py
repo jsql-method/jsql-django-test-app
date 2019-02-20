@@ -21,6 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'l15x@r0&!ut(th%)luy03l00d@2)rrn+(gf(t&yee2$x56x-41'
 API_KEY = '==qqS28aSYW4fcsKrMypPu6wqrPdJqQDXi+mBTK/zZTw==QT09EJqauHdFZmHZSOok'
+API_URL = 'https://dev-api.jsql.it'
 MEMBER_KEY = 'UO+fIIMLrxstiTcArtn3JQ=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
