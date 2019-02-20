@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-
+print("PROD MODE")
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,6 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'l15x@r0&!ut(th%)luy03l00d@2)rrn+(gf(t&yee2$x56x-41'
 API_KEY = '==XxPiAgZ3bAX6ZbbcvcbT6wqrPdJqQDXi+mBTK/zZTw==L818RZMBZ1mnOnOoSdMZ'
+API_URL = 'https://api.jsql.it'
 MEMBER_KEY = '4qjHbugc2M4+L4KNCeDhOA=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
