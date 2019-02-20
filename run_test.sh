@@ -1,1 +1,1 @@
-pip install virtualenv & ./venv/Scripts/activate & pip install -r requirements.txt & ./mrdj/manage.py runserver 
+pip install virtualenv & ./venv/Scripts/activate & pip install -r requirements.txt & ./mrdj/manage.py runserver --settings=settings.test
